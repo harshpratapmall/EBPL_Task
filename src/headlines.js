@@ -56,6 +56,7 @@ class Headlines extends React.Component{
                                 {title}
                             </span>
                             <p>
+		
                                 <span className="headline hl4">
                                     {author}
                                 </span>
