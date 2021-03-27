@@ -13,7 +13,7 @@ class Headlines extends React.Component{
     }
 
     getUsers(catags) {
-        axios.post('https://newsapi.org/v2/top-headlines',{
+        axios.get('https://newsapi.org/v2/top-headlines',{
             params: {country: catags, apiKey: '5a09ed9cad6745d49d9771c961782fba'}
         })
           .then(response =>
